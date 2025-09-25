@@ -13,4 +13,37 @@ I will be Performing Data wrangling and EDA on uncleaned dataset
 - stars: No. of stars the audiobook received
 - price: Price of the audiobook in INR
 - ratings: No. of reviews received by the audiobook
- 
+
+ ## **Observations**:
+   ### **Manual**
+  
+  ### Dirty Data
+
+*   The audiobook title text contains multiple language. **Consistency**
+*   Row no 36 contains the info related to the kind of audiobook with title **Consistency**
+-   Row no 159 have mixed english and other language **Consistency**
+-   Author coulum have wrttenby: in all the row **Accuracy**
+-   Narrator column have written NarratedBY: in all the rows **Accuracy**
+-   Date column is having data type string **Validity**
+-   Stars column has many missing values **Completeness**
+-   Price column has dtata type string **Validity**
+-   Language columns have all lower text but English language has E caps **Consistency**
+-   Date column have mentioned the date in different format**Validity**
+  ### Messy Data
+
+
+*   The name of the Audiobook is combined with Volume and editition of the audio book **Consistency**
+*   The Time column is having hours and minutes, need to handle **Validity** **Consistency**
+-   Starts column have stars as well as rating **Validity** **Consistency**
+
+
+
+   ### **Coding**
+
+  ### Dirty Data
+
+*   No missing value founds in any of the columns
+*   
+  ### Messy Data
+
+*   All columns have same data types string **Validity**
